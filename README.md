@@ -38,6 +38,30 @@ This repository showcases a comprehensive data workflow, featuring pipeline auto
 3. **Areas for Improvement:**
    - Expand Kibana visualizations with more advanced analytics
 
+## Directory 📦
+NoSQL-DataPipeline-Kibana
+|
+├── airflow
+      ├── dags
+           ├── Airflow_DAG.py
+           └── data_raw.csv
+      ├── env
+      └── airflow_ES.yaml
+├── /images
+      ├── introduction & objective (1).png
+      ├── introduction & objective (2).png
+      ├── introduction & objective (3).png
+      ├── plot & insight 01.png
+      ├── plot & insight 02 (1).png
+      ├── plot & insight 02 (2).png
+      ├── plot & insight 03.png
+      ├── plot & insight 04.png
+      ├── plot & insight 05.png
+      ├── plot & insight 06.png
+      ├── plot & insight 07.png
+      └── kesimpulan.png      
+├── great_expectation.ipynb
+└── query_SQL.txt
 ---
 
 💡Feel free to open an issue or submit a pull request if you have suggestions for improvements!

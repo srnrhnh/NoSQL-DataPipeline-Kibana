@@ -1,0 +1,6 @@
+airflow/great_expectations/
+airflow/logs/
+airflow/plugins/
+airflow/postgres_project_m3/
+airflow/postgres_serina/
+airflow/D/

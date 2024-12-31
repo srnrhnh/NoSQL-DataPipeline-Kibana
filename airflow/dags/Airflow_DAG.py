@@ -19,7 +19,7 @@ import datetime as dt
 from datetime import timedelta, timedelta
 
 # Temp Path
-TEMP_CSV_PATH = "/opt/airflow/dags/P2M3_serina_roihaanah_data_clean.csv"
+TEMP_CSV_PATH = "/opt/airflow/dags/data_clean.csv"
 
 # Fetch Data from Postgre
 def fetch_data():

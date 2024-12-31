@@ -1,0 +1,34 @@
+URL dataset : https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
+References :
+1. Introduction
+- https://www.snowflake.com/guides/data-analytics-retailers/
+- https://www-clientbook-com.translate.goog/blog/five-reasons-why-retail-data-tracking-is-important?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=sge#:~:text=Mengabaikan%20data%20ritel%20berarti%20kehilangan,strategi%20pemasaran%2C%20dan%20keterlibatan%20pelanggan.
+2. Plot & insight 01 
+- https://www.worldometers.info/world-population/myanmar-population/
+- https://www.trade.gov/market-intelligence/burma-myanmar-retail
+
+DDL query :
+docker exec -it postgres psql -U airflow -d airflow
+
+CREATE TABLE table_m3 (
+    "Invoice ID" VARCHAR(50) PRIMARY KEY,
+    Branch VARCHAR(50),
+    City VARCHAR(50),
+    "Customer type" VARCHAR(50),
+    Gender VARCHAR(10),
+    "Product line" VARCHAR(100),
+    "Unit price" FLOAT,
+    Quantity INT,
+    "Tax 5%" FLOAT,
+    Total FLOAT,
+    Date DATE,
+    Time TIME,
+    Payment VARCHAR(50),
+    cogs FLOAT,
+    "gross margin percentage" FLOAT,
+    "gross income" FLOAT,
+    Rating FLOAT
+);
+
+DML :
+\COPY table_m3 FROM '/var/lib/postgresql/data/data_raw.csv' DELIMITER ',' CSV HEADER;
