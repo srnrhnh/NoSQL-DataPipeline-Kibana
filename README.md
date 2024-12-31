@@ -39,6 +39,7 @@ This repository showcases a comprehensive data workflow, featuring pipeline auto
    - Expand Kibana visualizations with more advanced analytics
 
 ## Directory 📦
+
 NoSQL-DataPipeline-Kibana
 |
 ├── airflow
