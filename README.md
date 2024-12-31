@@ -39,7 +39,7 @@ This repository showcases a comprehensive data workflow, featuring pipeline auto
    - Expand Kibana visualizations with more advanced analytics
 
 ## Directory 📦
-
+```
 NoSQL-DataPipeline-Kibana
 |
 ├── airflow
@@ -63,7 +63,7 @@ NoSQL-DataPipeline-Kibana
       └── kesimpulan.png      
 ├── great_expectation.ipynb
 └── query_SQL.txt
-
+```
 ---
 
 💡Feel free to open an issue or submit a pull request if you have suggestions for improvements!
