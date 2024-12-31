@@ -16,16 +16,16 @@ This repository showcases a comprehensive data workflow, featuring pipeline auto
 - **Pandas** (data cleaning and manipulation)
 
 ## Method 🚀
-- Data Extraction: 
+- **Data Extraction:** 
     - Retrieve data from PostgreSQL using SQL queries
-- Data Cleaning: 
+- **Data Cleaning:** 
     - Remove duplicates and normalize column names
     - Handle missing values by imputing medians for numerical data and modes for categorical data.
-- Data Loading: 
+- **Data Loading:** 
     - Send cleaned data to Elasticsearch for indexing.
-- Data Visualization: 
+- **Data Visualization:** 
     - Use Kibana to create dashboards and visualize trends in the indexed data.
-- Pipeline Automation:
+- **Pipeline Automation:**
     - Schedule and orchestrate tasks using Apache Airflow.    
 
 ## **Key Insights & Conclusions 🧠**
